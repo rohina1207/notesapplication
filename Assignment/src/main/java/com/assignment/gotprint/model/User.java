@@ -28,7 +28,6 @@ public class User {
 		@NonNull
 		@Column(unique=true)
 		private String email;
-		//@Size(min=8)
 		private String password;
 		@CreationTimestamp
 		@Column(name="createTime", nullable = false, updatable = false)
